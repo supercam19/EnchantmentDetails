@@ -6,4 +6,4 @@
 
  Currently the datapack only updates the description of the book when it is held in the mainhand.
 
- [Preview image](preview.png)
+ ![Preview image](preview.png)
