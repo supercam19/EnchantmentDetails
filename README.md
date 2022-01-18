@@ -1,4 +1,5 @@
 # EnchantmentDetails
+ pull
  A small datapack that adds descriptions to enchantment books
 
 ## WARNING
