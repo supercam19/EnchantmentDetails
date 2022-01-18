@@ -1,0 +1,5 @@
+{
+  "function": "set_lore",
+  "lore": [{"text":"Extends breathing time underwater","italic":false,"color":"#e699e6"},{"text":"For: Helmets","italic":true,"color":"#bfbfbf"}],
+  "replace": "true"
+}
