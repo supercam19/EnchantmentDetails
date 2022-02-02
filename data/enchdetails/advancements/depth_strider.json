@@ -1,0 +1,1 @@
+{"criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [ {"items": [ "minecraft:enchanted_book" ], "nbt": "{StoredEnchantments:[{id:\"minecraft:depth_strider\"}]}" }]}}}, "rewards": {"function": "enchdetails:depth_strider" }}
