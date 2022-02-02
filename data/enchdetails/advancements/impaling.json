@@ -1,0 +1,1 @@
+{"criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [ {"items": [ "minecraft:enchanted_book" ], "nbt": "{StoredEnchantments:[{id:\"minecraft:impaling\"}]}" }]}}}, "rewards": {"function": "enchdetails:impaling" }}

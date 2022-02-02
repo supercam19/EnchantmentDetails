@@ -1,0 +1,1 @@
+{"criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [ {"items": [ "minecraft:enchanted_book" ], "nbt": "{StoredEnchantments:[{id:\"minecraft:binding_curse\"}]}" }]}}}, "rewards": {"function": "enchdetails:binding_curse" }}
