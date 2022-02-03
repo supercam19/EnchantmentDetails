@@ -1,6 +1,6 @@
 # EnchantmentDetails
- pull
- A small datapack that adds descriptions to enchantment books
+
+A small datapack that adds descriptions to enchantment books
 
 This datapack will have nearly no effect on performance - There is no code that runs every tick.
 
