@@ -34,3 +34,4 @@ execute if entity @s[nbt={Inventory:[{Slot:32b, id:"minecraft:enchanted_book", t
 execute if entity @s[nbt={Inventory:[{Slot:33b, id:"minecraft:enchanted_book", tag:{StoredEnchantments: [{id: "minecraft:fire_aspect"}]}}]}] run item modify entity @s container.33 enchdetails:fire_aspect
 execute if entity @s[nbt={Inventory:[{Slot:34b, id:"minecraft:enchanted_book", tag:{StoredEnchantments: [{id: "minecraft:fire_aspect"}]}}]}] run item modify entity @s container.34 enchdetails:fire_aspect
 execute if entity @s[nbt={Inventory:[{Slot:35b, id:"minecraft:enchanted_book", tag:{StoredEnchantments: [{id: "minecraft:fire_aspect"}]}}]}] run item modify entity @s container.35 enchdetails:fire_aspect
+advancement revoke @s only enchdetails:fire_aspect

@@ -34,3 +34,4 @@ execute if entity @s[nbt={Inventory:[{Slot:32b, id:"minecraft:enchanted_book", t
 execute if entity @s[nbt={Inventory:[{Slot:33b, id:"minecraft:enchanted_book", tag:{StoredEnchantments: [{id: "minecraft:luck_of_the_sea"}]}}]}] run item modify entity @s container.33 enchdetails:luck_of_the_sea
 execute if entity @s[nbt={Inventory:[{Slot:34b, id:"minecraft:enchanted_book", tag:{StoredEnchantments: [{id: "minecraft:luck_of_the_sea"}]}}]}] run item modify entity @s container.34 enchdetails:luck_of_the_sea
 execute if entity @s[nbt={Inventory:[{Slot:35b, id:"minecraft:enchanted_book", tag:{StoredEnchantments: [{id: "minecraft:luck_of_the_sea"}]}}]}] run item modify entity @s container.35 enchdetails:luck_of_the_sea
+advancement revoke @s only enchdetails:luck_of_the_sea

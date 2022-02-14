@@ -1,3 +1,7 @@
+## Hotfix -v1.0.1 (Feb 14, 2022)
+### Fixes
+ - Fixed each player only being able to change the description of each enchanted book once
+
 ## Full Release - v1.0 (Feb 2, 2022)
 ### Additions
  - New system to detect and update enchanted books - does not use ticking functions
