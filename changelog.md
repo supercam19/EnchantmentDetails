@@ -1,3 +1,11 @@
+## Update - v1.1 (Incomplete)
+### Additions
+ - Added a spreadsheet for item modifiers to make it easier to edit
+ - Added an item_modifiers.py script to generate the item_modifier files
+
+### Changes
+ - Made the advancements and functions scripts read enchantment names from the spreadsheet instead of being hard-coded
+
 ## Hotfix -v1.0.1 (Feb 14, 2022)
 ### Fixes
  - Fixed each player only being able to change the description of each enchanted book once
