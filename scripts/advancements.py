@@ -1,10 +1,7 @@
-enchantments = ("sharpness", "smite", "bane_of_arthropods", "knockback", "fire_aspect",
-                "sweeping_edge", "protection", "fire_protection", "feather_falling", "blast_protection",
-                "projectile_protection", "respiration", "aqua_affinity", "depth_strider",
-                "frost_walker", "soul_speed", "efficiency", "silk_touch", "unbreaking",
-                "looting", "fortune", "luck_of_the_sea", "lure", "power", "flame", "punch",
-                "infinity", "thorns", "mending", "binding_curse", "vanishing_curse", "loyalty",
-                "impaling", "riptide", "channeling", "multishot", "quick_charge", "piercing")
+import pandas as pd
+
+df = pd.read_excel('Enchantment Details.xlsx', sheet_name='Sheet1')
+enchantments = df['Enchantment'].tolist()
 
 for enchant in enchantments:
     new_file = open(f'output/{enchant}.json', 'w')

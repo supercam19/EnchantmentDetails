@@ -1,5 +1,5 @@
 {
-  "function": "set_lore",
-  "lore": [{"text":"Allows certain blocks to drop themselves","italic":false,"color":"#e699e6"},{"text":"For: Tools","italic":true,"color":"#bfbfbf"}],
-  "replace": "true"
+	"function": "set_lore",
+	"lore": [{"text":"Makes drops block as they are","italic":false,"color":"#e699e6"},{"text":"For: Tools","italic":true,"color":"#bfbfbf"}],
+	"replace": "true"
 }

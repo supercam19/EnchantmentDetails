@@ -7,4 +7,11 @@ This datapack will have nearly no effect on performance - There is no code that 
  ![Preview image](preview.png)
 
  ## Modifications
- If you wish to modify this datapack, feel free to use the python scripts found inside of the scripts/ directory. They are used to generate all the files for advancements and functions. Theses scripts have no dependencies other than python 3.8 or higher. Descriptions for the enchanted books are found in data/enchdetails/item_modifiers
+ If you wish to modify this datapack, feel free to use the python scripts found inside of the scripts/ directory. They are used to generate all the files for advancements, functions and item_modifiers.
+
+Theses scripts require the pandas to read the spreadsheet file.
+```
+pip install pandas
+```
+
+The enchantment names (as given in Minecraft's code), the descriptions and what items the enchants apply to can be edited in the spreadsheet "Enchantment Details.xlsx".
