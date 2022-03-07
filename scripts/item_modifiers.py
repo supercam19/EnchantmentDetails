@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel('Enchantment Details.xlsx', sheet_name='Sheet1')  # can also index sheet by name or fetch all sheets
+df = pd.read_excel('Enchantment Details.xlsx', sheet_name='Sheet1')
 enchantments = df['Enchantment'].tolist()
 descriptions = df['Description'].tolist()
 applications = df['Applications'].tolist()
