@@ -9,7 +9,7 @@ This datapack will have nearly no effect on performance - There is no code that 
  ## Modifications
  If you wish to modify this datapack, feel free to use the python scripts found inside of the scripts/ directory. They are used to generate all the files for advancements, functions and item_modifiers.
 
-Theses scripts require the pandas to read the spreadsheet file.
+Theses scripts require the pandas library to read the spreadsheet file.
 ```
 pip install pandas
 ```
