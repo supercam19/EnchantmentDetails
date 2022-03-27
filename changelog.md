@@ -1,4 +1,4 @@
-## Update - v1.1 (Incomplete)
+## Update - v1.1 (March 27, 2022)
 ### Additions
  - Added the 1.19 Swift Sneak enchantment
  - Added a spreadsheet for item modifiers to make it easier to edit
