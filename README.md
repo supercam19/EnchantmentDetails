@@ -1,6 +1,6 @@
 # EnchantmentDetails
 
-A small datapack that adds descriptions to enchantment books
+A small datapack that adds descriptions to enchantment books (1.18-1.19)
 
 This datapack will have nearly no effect on performance - There is no code that runs every tick.
 
