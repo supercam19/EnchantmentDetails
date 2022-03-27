@@ -1,5 +1,6 @@
 ## Update - v1.1 (Incomplete)
 ### Additions
+ - Added the 1.19 Swift Sneak enchantment
  - Added a spreadsheet for item modifiers to make it easier to edit
  - Added an item_modifiers.py script to generate the item_modifier files
 
