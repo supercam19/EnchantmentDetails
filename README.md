@@ -4,7 +4,7 @@ A small datapack that adds descriptions to enchantment books (1.18-1.19)
 
 This datapack will have nearly no effect on performance - There is no code that runs every tick.
 
- ![Preview image](preview.png)
+ ![Preview image](example.png)
 
  ## Modifications
  If you wish to modify this datapack, feel free to use the python scripts found inside of the scripts/ directory. They are used to generate all the files for advancements, functions and item_modifiers.
