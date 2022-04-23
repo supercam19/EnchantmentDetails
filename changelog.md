@@ -1,7 +1,10 @@
 ## Update - v1.2 (In developement)
 ### Additions
  - New artwork for the datapack
- - Created a pack.png (thumbnail for datapack)
+ - Added a pack.png 
+
+ ### Changes
+ - Python scripts now generate an 'output' folder if none already exist
 
 ## Update - v1.1 (March 27, 2022)
 ### Additions
