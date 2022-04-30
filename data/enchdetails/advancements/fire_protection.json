@@ -1,1 +1,18 @@
-{"criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [ {"items": [ "minecraft:enchanted_book" ], "nbt": "{StoredEnchantments:[{id:\"minecraft:fire_protection\"}]}" }]}}}, "rewards": {"function": "enchdetails:fire_protection" }}
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed", 
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:enchanted_book" ], 
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:fire_protection\"}]}" 
+					}
+				]
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "enchdetails:fire_protection" 
+	}
+}

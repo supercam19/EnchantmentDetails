@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Damages melee attackers of the wearer","italic":false,"color":"#e699e6"},{"text":"For: Armor","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Deals damage to those who attack the wearer","italic":false,"color":"#e699e6"},{"text":"For: Armor","italic":true,"color":"#bfbfbf"}],
 	"replace": "true"
 }

@@ -1,1 +1,18 @@
-{"criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [ {"items": [ "minecraft:enchanted_book" ], "nbt": "{StoredEnchantments:[{id:\"minecraft:power\"}]}" }]}}}, "rewards": {"function": "enchdetails:power" }}
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed", 
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:enchanted_book" ], 
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:power\"}]}" 
+					}
+				]
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "enchdetails:power" 
+	}
+}

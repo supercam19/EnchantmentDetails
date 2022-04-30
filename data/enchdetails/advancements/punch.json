@@ -1,1 +1,18 @@
-{"criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [ {"items": [ "minecraft:enchanted_book" ], "nbt": "{StoredEnchantments:[{id:\"minecraft:punch\"}]}" }]}}}, "rewards": {"function": "enchdetails:punch" }}
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed", 
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:enchanted_book" ], 
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:punch\"}]}" 
+					}
+				]
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "enchdetails:punch" 
+	}
+}

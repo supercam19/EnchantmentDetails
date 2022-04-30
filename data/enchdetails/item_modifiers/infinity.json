@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Stops the bow from consuming arrows","italic":false,"color":"#e699e6"},{"text":"For: Bows","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Prevents arrows from being consumed when shot","italic":false,"color":"#e699e6"},{"text":"For: Bows","italic":true,"color":"#bfbfbf"}],
 	"replace": "true"
 }

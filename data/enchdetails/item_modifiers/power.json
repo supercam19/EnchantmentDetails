@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Increases damage dealt ","italic":false,"color":"#e699e6"},{"text":"For: Bows","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Increases damage dealt with arrows","italic":false,"color":"#e699e6"},{"text":"For: Bows","italic":true,"color":"#bfbfbf"}],
 	"replace": "true"
 }

@@ -11,5 +11,5 @@ os.mkdir('output')
 for enchant in enchantments:  # Loop through each enchantment file
     new_file = open(f'output/{enchant}.json', 'w')
     new_file.truncate()  # Removes contents of the file
-    new_file.write(f'{{"criteria": {{"requirement": {{"trigger": "minecraft:inventory_changed", "conditions": {{"items": [ {{"items": [ "minecraft:enchanted_book" ], "nbt": "{{StoredEnchantments:[{{id:\\"minecraft:{enchant}\\"}}]}}" }}]}}}}}}, "rewards": {{"function": "enchdetails:{enchant}" }}}}')
+    new_file.write(f'{{\n\t"criteria": {{\n\t\t"requirement": {{\n\t\t\t"trigger": "minecraft:inventory_changed", \n\t\t\t"conditions": {{\n\t\t\t\t"items": [\n\t\t\t\t\t{{\n\t\t\t\t\t\t"items": [ "minecraft:enchanted_book" ], \n\t\t\t\t\t\t"nbt": "{{StoredEnchantments:[{{id:\\"minecraft:{enchant}\\"}}]}}" \n\t\t\t\t\t}}\n\t\t\t\t]\n\t\t\t}}\n\t\t}}\n\t}}, \n\t"rewards": {{\n\t\t"function": "enchdetails:{enchant}" \n\t}}\n}}')
     new_file.close()

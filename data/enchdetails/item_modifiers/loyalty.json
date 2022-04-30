@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Returns trident to thrower","italic":false,"color":"#e699e6"},{"text":"For: Tridents","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Returns trident to thrower after it is thrown","italic":false,"color":"#e699e6"},{"text":"For: Tridents","italic":true,"color":"#bfbfbf"}],
 	"replace": "true"
 }

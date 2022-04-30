@@ -1,1 +1,18 @@
-{"criteria": {"requirement": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [ {"items": [ "minecraft:enchanted_book" ], "nbt": "{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\"}]}" }]}}}, "rewards": {"function": "enchdetails:luck_of_the_sea" }}
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed", 
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:enchanted_book" ], 
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\"}]}" 
+					}
+				]
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "enchdetails:luck_of_the_sea" 
+	}
+}

@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Speeds up mining underwater","italic":false,"color":"#e699e6"},{"text":"For: Helmets","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Increases mining speed while underwater","italic":false,"color":"#e699e6"},{"text":"For: Helmets","italic":true,"color":"#bfbfbf"}],
 	"replace": "true"
 }

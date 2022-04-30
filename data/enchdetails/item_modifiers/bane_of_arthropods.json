@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Increases damage dealt to arthropods","italic":false,"color":"#e699e6"},{"text":"For: Swords","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Increases damage dealt to arthropods","italic":false,"color":"#e699e6"},{"text":"For: Melee Weapons","italic":true,"color":"#bfbfbf"}],
 	"replace": "true"
 }
