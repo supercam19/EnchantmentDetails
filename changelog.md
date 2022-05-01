@@ -3,8 +3,13 @@
  - New artwork for the datapack
  - Added a pack.png 
 
- ### Changes
+### Changes
+ - Updated most enchantment descriptions to better describe their purpose
  - Python scripts now generate an 'output' folder if none already exist
+ - Added proper json formatting to the advancement files
+
+### Fixes
+ - Spelling mistakes
 
 ## Update - v1.1 (March 27, 2022)
 ### Additions
