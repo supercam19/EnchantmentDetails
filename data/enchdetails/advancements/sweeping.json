@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed", 
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:enchanted_book" ], 
+						"nbt": "{StoredEnchantments:[{id:\"minecraft:sweeping\"}]}" 
+					}
+				]
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "enchdetails:sweeping" 
+	}
+}
