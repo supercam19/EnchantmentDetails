@@ -1,4 +1,4 @@
-## Update - v1.2 (In developement)
+## Update - v1.2.0 (May 2, 2022)
 ### Additions
  - New artwork for the datapack
  - Added a pack.png 
@@ -15,7 +15,7 @@
  - Fixed sweeping edge not getting a description
  - Spelling mistakes
 
-## Update - v1.1 (March 27, 2022)
+## Update - v1.1.0 (March 27, 2022)
 ### Additions
  - Added the 1.19 Swift Sneak enchantment
  - Added a spreadsheet for item modifiers to make it easier to edit
