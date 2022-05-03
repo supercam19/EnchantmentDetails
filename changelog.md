@@ -2,13 +2,17 @@
 ### Additions
  - New artwork for the datapack
  - Added a pack.png 
+ - Added a python script to generate all the files for the datapack
+ - Console logs for the python scripts (errors and info)
 
 ### Changes
  - Updated most enchantment descriptions to better describe their purpose
  - Python scripts now generate an 'output' folder if none already exist
+ - Python scripts now remove all contents from the output folder before creating new files
  - Added proper json formatting to the advancement files
 
 ### Fixes
+ - Fixed sweeping edge not getting a description
  - Spelling mistakes
 
 ## Update - v1.1 (March 27, 2022)
