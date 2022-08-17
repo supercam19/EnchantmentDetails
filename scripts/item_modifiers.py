@@ -26,6 +26,7 @@ def main(output_directory='/output'):
     enchantments = df['Enchantment'].tolist()
     descriptions = df['Description'].tolist()
     applications = df['Applications'].tolist()
+    maxLVL = df['MaxLVL'].tolist()
 
     if output_directory == '/output':
         rmtree(os.path.dirname(__file__) + output_directory)
@@ -34,7 +35,7 @@ def main(output_directory='/output'):
     for enchant in range(len(enchantments)):  # Loop through each enchantment file
         new_file = open(f'{output_directory.strip("/")}/{enchantments[enchant]}.json', 'w')
         new_file.truncate()  # Removes the contents of the file
-        new_file.write(f'{{\n\t\"function\": \"set_lore\",\n\t\"lore\": [{{\"text\":\"{descriptions[enchant]}\",\"italic\":false,\"color\":\"#e699e6\"}},{{\"text\":\"For: {applications[enchant]}\",\"italic\":true,\"color\":\"#bfbfbf\"}}],\n\t\"replace\": \"true\"\n}}')
+        new_file.write(f'{{\n\t\"function\": \"set_lore\",\n\t\"lore\": [{{\"text\":\"{descriptions[enchant]}\",\"italic\":false,\"color\":\"#e699e6\"}},{{\"text\":\"For: {applications[enchant]} | Max: {maxLVL[enchant]}\",\"italic\":true,\"color\":\"#bfbfbf\"}}],\n\t\"replace\": \"true\"\n}}')
         new_file.close()
 
     if __name__ == '__main__':

@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Increases damage dealt to undead tagets","italic":false,"color":"#e699e6"},{"text":"For: Melee Weapons","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Increases damage dealt to undead tagets","italic":false,"color":"#e699e6"},{"text":"For: Melee Weapons | Max: V","italic":true,"color":"#bfbfbf"}],
 	"replace": "true"
 }

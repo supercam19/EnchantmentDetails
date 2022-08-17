@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Strikes lightning when thrown in a thunderstorm ","italic":false,"color":"#e699e6"},{"text":"For: Tridents","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Strikes lightning when thrown in a thunderstorm ","italic":false,"color":"#e699e6"},{"text":"For: Tridents | Max: I","italic":true,"color":"#bfbfbf"}],
 	"replace": "true"
 }
