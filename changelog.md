@@ -1,3 +1,13 @@
+## Update - v1.3.0 (August 17, 2022)
+### Additions
+ - Enchantment descriptions now show the max level the enchant can have
+
+### Changes
+ - Updated several descriptions to better reflect their enchantments
+
+### Fixes
+ - Fixed the silk touch description not making sense
+
 ## Update - v1.2.0 (May 2, 2022)
 ### Additions
  - New artwork for the datapack
