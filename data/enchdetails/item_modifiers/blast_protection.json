@@ -1,5 +1,0 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Reduces damage taken from explosions","italic":false,"color":"#e699e6"},{"text":"For: Armor | Max: IV","italic":true,"color":"#bfbfbf"}],
-	"replace": "true"
-}

@@ -1,0 +1,5 @@
+{
+	"function": "set_lore",
+	"lore": [{"text":"Extends breathing time underwater","italic":false,"color":"#e699e6"},{"text":"For: Helmets | Max: III","italic":true,"color":"#bfbfbf"}],
+	"mode": "replace_all"
+}

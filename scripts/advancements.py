@@ -1,6 +1,7 @@
 import os
 from shutil import rmtree
 from time import time
+import json
 
 try:
     import pandas as pd
@@ -24,17 +25,18 @@ def main(output_directory='/output'):
     enchantments = df['Enchantment'].tolist()  # Converts the spreadsheet column "Enchantment" to a list so it can be indexed later
 
     if output_directory == '/output':
-        rmtree(os.path.dirname(__file__) + output_directory)
+        if os.path.exists(os.path.dirname(__file__) + output_directory):
+            rmtree(os.path.dirname(__file__) + output_directory)
         os.mkdir('output')
 
     for enchant in enchantments:  # Loop through each enchantment file
         new_file = open(f'{output_directory.strip("/")}/{enchant}.json', 'w')
-        new_file.truncate()  # Removes contents of the file
-        new_file.write(f'{{\n\t"criteria": {{\n\t\t"requirement": {{\n\t\t\t"trigger": "minecraft:inventory_changed", \n\t\t\t"conditions": {{\n\t\t\t\t"items": [\n\t\t\t\t\t{{\n\t\t\t\t\t\t"items": [ "minecraft:enchanted_book" ], \n\t\t\t\t\t\t"nbt": "{{StoredEnchantments:[{{id:\\"minecraft:{enchant}\\"}}]}}" \n\t\t\t\t\t}}\n\t\t\t\t]\n\t\t\t}}\n\t\t}}\n\t}}, \n\t"rewards": {{\n\t\t"function": "enchdetails:{enchant}" \n\t}}\n}}')
+        new_file.truncate()
+        json.dump(json.loads('{"criteria":{"requirement":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"minecraft:enchanted_book","predicates":{"minecraft:stored_enchantments":[{"enchantments":"' + enchant + '","levels":{"min":0,"max":5}}]}}]}}},"rewards":{"function":"enchdetails:enchantments/' + enchant + '"}}'), new_file, indent=2)
         new_file.close()
 
     if __name__ == '__main__':
-        print(f'[Info] Generated 39 files in {round(time() - start_time, 3)} seconds')
+        print(f'[Info] Generated {len(enchantments)} files in {round(time() - start_time, 3)} seconds')
 
 
 if __name__ == '__main__':

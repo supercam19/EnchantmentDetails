@@ -1,0 +1,5 @@
+{
+	"function": "set_lore",
+	"lore": [{"text":"Increases durability","italic":false,"color":"#e699e6"},{"text":"For: All | Max: III","italic":true,"color":"#bfbfbf"}],
+	"mode": "replace_all"
+}

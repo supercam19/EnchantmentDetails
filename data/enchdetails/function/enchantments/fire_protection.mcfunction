@@ -1,0 +1,3 @@
+data merge storage ench {details:{"itter":0,"name":fire_protection}}
+function enchdetails:find with storage ench details
+advancement revoke @s only enchdetails:fire_protection

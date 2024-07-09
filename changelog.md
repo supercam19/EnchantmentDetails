@@ -1,3 +1,12 @@
+## Update - v1.4.0 (???)
+This update brings compatibility with the version 1.21 of Minecraft.
+
+### Changes
+ - 1.21 compatibility
+
+### Fixes
+ - Fixed script not working if not output folder exists
+
 ## Update - v1.3.0 (August 17, 2022)
 ### Additions
  - Enchantment descriptions now show the max level the enchant can have

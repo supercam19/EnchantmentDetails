@@ -1,0 +1,5 @@
+{
+	"function": "set_lore",
+	"lore": [{"text":"Prevents arrows from being consumed when shot","italic":false,"color":"#e699e6"},{"text":"For: Bows | Max: I","italic":true,"color":"#bfbfbf"}],
+	"mode": "replace_all"
+}
