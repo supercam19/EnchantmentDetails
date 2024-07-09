@@ -1,12 +1,19 @@
-## Update - v1.4.0 (???)
+## Update - v1.4.0 (July 9, 2024)
 This update brings compatibility with the version 1.21 of Minecraft.
 
-### Changes
+### Additions
  - 1.21 compatibility
  - Mace enchantment descriptions
 
+### Changes
+ - Improve most enchantment descriptions
+ - Improved load times 
+
 ### Fixes
  - Fixed script not working if not output folder exists
+
+### Removed
+ - Removed generate_pack.py script because the datapack can no longer be generated completely by the provided scripts
 
 ## Update - v1.3.0 (August 17, 2022)
 ### Additions
