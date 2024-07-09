@@ -9,7 +9,7 @@
             "predicates": {
               "minecraft:stored_enchantments": [
                 {
-                  "enchantments": "sweeping",
+                  "enchantments": "sweeping_edge",
                   "levels": {
                     "min": 0,
                     "max": 5
@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "enchdetails:enchantments/sweeping"
+    "function": "enchdetails:enchantments/sweeping_edge"
   }
 }
