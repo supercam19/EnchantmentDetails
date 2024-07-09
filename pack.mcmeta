@@ -1,6 +1,6 @@
  {
        "pack": {
-           "pack_format": 8,
+           "pack_format": 48,
            "description": [{"text":"Adds enchantment descriptions","color":"yellow"},{"text":"\nBy Supercam19","color":"gold"}]
        }
    }

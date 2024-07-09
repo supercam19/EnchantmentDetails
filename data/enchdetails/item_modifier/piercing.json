@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Allows arrows to pierce through targets and shields","italic":false,"color":"#e699e6"},{"text":"For: Crossbows | Max: V","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Arrows pierce through entities and shields","italic":false,"color":"#e699e6"},{"text":"For: Crossbows | Max: V","italic":true,"color":"#bfbfbf"}],
 	"mode": "replace_all"
 }

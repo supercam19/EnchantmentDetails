@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Sets shot arrows on fire","italic":false,"color":"#e699e6"},{"text":"For: Bows | Max: I","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Ignites shot arrows","italic":false,"color":"#e699e6"},{"text":"For: Bows | Max: I","italic":true,"color":"#bfbfbf"}],
 	"mode": "replace_all"
 }

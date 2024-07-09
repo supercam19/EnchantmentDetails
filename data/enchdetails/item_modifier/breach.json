@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Reduces damage reduction of target’s armor","italic":false,"color":"#e699e6"},{"text":"For: Mace | Max: IV","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Reduces effectiveness of target's armor","italic":false,"color":"#e699e6"},{"text":"For: Mace | Max: IV","italic":true,"color":"#bfbfbf"}],
 	"mode": "replace_all"
 }

@@ -1,5 +1,5 @@
 {
 	"function": "set_lore",
-	"lore": [{"text":"Cursed item disappears upon death","italic":false,"color":"#e699e6"},{"text":"For: All | Max: I","italic":true,"color":"#bfbfbf"}],
+	"lore": [{"text":"Item disappears on death","italic":false,"color":"#e699e6"},{"text":"For: All | Max: I","italic":true,"color":"#bfbfbf"}],
 	"mode": "replace_all"
 }
