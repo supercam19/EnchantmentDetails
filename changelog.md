@@ -3,6 +3,7 @@ This update brings compatibility with the version 1.21 of Minecraft.
 
 ### Changes
  - 1.21 compatibility
+ - Mace enchantment descriptions
 
 ### Fixes
  - Fixed script not working if not output folder exists
