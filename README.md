@@ -16,6 +16,7 @@ Note that this datapack will never be ported to pre 1.17
 | ✅ | 1.17.*     | 1.2.0            | 05/02/2022 |
 | ✅ | 1.18.*     | 1.2.0            | 05/01/2022 |
 | ✅ | 1.19.*     | 1.3.0            | 08/17/2022 |
+| ✅ | 1.21.*     | 1.4.0            | 07/10/2024 |
 
 ## How to install
 This datapack can be installed like any other datapack, there is nothing extra to do before it works.
