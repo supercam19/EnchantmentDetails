@@ -1,11 +1,20 @@
 [
     {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:stored_enchantments": {
+                "levels": {},
+                "show_in_tooltip": false
+            }
+        }
+    },
+    {
         "function": "minecraft:set_lore",
         "entity": "this",
         "lore": [
             [
                 {
-                    "text": "multishot ",
+                    "text": "Multishot ",
                     "color": "gray"
                 },
                 {
@@ -18,15 +27,15 @@
                     "color": "gray"
                 },
                 {
-                    "text": "[Crossbows]",
+                    "text": " [Crossbows]",
                     "color": "dark_gray"
                 }
             ],
             {
                 "text": "Shoots three projectiles per shot",
-                "color": "light_purple"
+                "color": "#E699E6"
             }
         ],
-        "mode": "insert"
+        "mode": "append"
     }
 ]

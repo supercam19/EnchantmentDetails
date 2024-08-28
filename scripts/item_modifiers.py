@@ -11,7 +11,7 @@ except ImportError:
 
 
 def item_modifier(name, max_level, applications, description):
-    return '[{"function": "minecraft:set_lore", "entity": "this", "lore": [[{"text": "' + name + ' ", "color": "gray"}, {"nbt":"details.level","storage":"minecraft:ench", "color":"gray"}, {"text":"/' + max_level + '", "color": "gray"}, {"text": "[' + applications + ']", "color": "dark_gray"}], {"text": "' + description + '", "color": "light_purple"}], "mode": "insert"}]'
+    return '[{"function": "minecraft:set_components", "components": {"minecraft:stored_enchantments": {"levels": {}, "show_in_tooltip": false}}},{"function": "minecraft:set_lore", "entity": "this", "lore": [[{"text": "' + name + ' ", "color": "gray"}, {"nbt":"details.level","storage":"minecraft:ench", "color":"gray"}, {"text":"/' + max_level + '", "color": "gray"}, {"text": " [' + applications + ']", "color": "dark_gray"}], {"text": "' + description + '", "color": "#E699E6"}], "mode": "append"}]'
 
 def main(output_directory='/output'):
     """
@@ -28,6 +28,7 @@ def main(output_directory='/output'):
         exit()
     # Creates a list out of the three columns so they can be indexed later
     enchantments = df['Enchantment'].tolist()
+    display_names = df['Display Name'].tolist()
     descriptions = df['Description'].tolist()
     applications = df['Applications'].tolist()
     maxLVL = df['MaxLVL'].tolist()
@@ -40,7 +41,7 @@ def main(output_directory='/output'):
     for enchant in range(len(enchantments)):  # Loop through each enchantment file
         new_file = open(f'{output_directory.strip("/")}/{enchantments[enchant]}.json', 'w')
         new_file.truncate()  # Removes the contents of the file
-        json.dump(json.loads(item_modifier(enchantments[enchant], maxLVL[enchant], applications[enchant], descriptions[enchant])), new_file, indent=4)
+        json.dump(json.loads(item_modifier(display_names[enchant], maxLVL[enchant], applications[enchant], descriptions[enchant])), new_file, indent=4)
         new_file.close()
 
     if __name__ == '__main__':

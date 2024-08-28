@@ -1,11 +1,20 @@
 [
     {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:stored_enchantments": {
+                "levels": {},
+                "show_in_tooltip": false
+            }
+        }
+    },
+    {
         "function": "minecraft:set_lore",
         "entity": "this",
         "lore": [
             [
                 {
-                    "text": "loyalty ",
+                    "text": "Loyalty ",
                     "color": "gray"
                 },
                 {
@@ -18,15 +27,15 @@
                     "color": "gray"
                 },
                 {
-                    "text": "[Tridents]",
+                    "text": " [Tridents]",
                     "color": "dark_gray"
                 }
             ],
             {
                 "text": "Trident returns after being thrown",
-                "color": "light_purple"
+                "color": "#E699E6"
             }
         ],
-        "mode": "insert"
+        "mode": "append"
     }
 ]

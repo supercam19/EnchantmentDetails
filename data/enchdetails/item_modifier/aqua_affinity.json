@@ -1,11 +1,20 @@
 [
     {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:stored_enchantments": {
+                "levels": {},
+                "show_in_tooltip": false
+            }
+        }
+    },
+    {
         "function": "minecraft:set_lore",
         "entity": "this",
         "lore": [
             [
                 {
-                    "text": "aqua_affinity ",
+                    "text": "Aqua Affinity ",
                     "color": "gray"
                 },
                 {
@@ -18,15 +27,15 @@
                     "color": "gray"
                 },
                 {
-                    "text": "[Helmets]",
+                    "text": " [Helmets]",
                     "color": "dark_gray"
                 }
             ],
             {
                 "text": "Increases underwater mining speed",
-                "color": "light_purple"
+                "color": "#E699E6"
             }
         ],
-        "mode": "insert"
+        "mode": "append"
     }
 ]

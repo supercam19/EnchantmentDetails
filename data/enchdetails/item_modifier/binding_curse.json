@@ -1,11 +1,20 @@
 [
     {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:stored_enchantments": {
+                "levels": {},
+                "show_in_tooltip": false
+            }
+        }
+    },
+    {
         "function": "minecraft:set_lore",
         "entity": "this",
         "lore": [
             [
                 {
-                    "text": "binding_curse ",
+                    "text": "Curse of Binding ",
                     "color": "gray"
                 },
                 {
@@ -18,15 +27,15 @@
                     "color": "gray"
                 },
                 {
-                    "text": "[Armor]",
+                    "text": " [Armor]",
                     "color": "dark_gray"
                 }
             ],
             {
                 "text": "Makes the wearer unable to remove the armor",
-                "color": "light_purple"
+                "color": "#E699E6"
             }
         ],
-        "mode": "insert"
+        "mode": "append"
     }
 ]
