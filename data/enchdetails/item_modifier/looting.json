@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Increases amount of loot dropped by mobs","italic":false,"color":"#e699e6"},{"text":"For: Swords | Max: III","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "looting ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/III",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Swords]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Increases amount of loot dropped by mobs",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

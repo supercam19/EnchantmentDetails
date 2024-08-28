@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Increases arrow damage","italic":false,"color":"#e699e6"},{"text":"For: Bows | Max: V","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "power ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/V",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Bows]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Increases arrow damage",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

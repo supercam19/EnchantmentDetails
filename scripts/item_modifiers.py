@@ -1,6 +1,7 @@
 import os
 from shutil import rmtree
 from time import time
+import json
 
 try:
     import pandas as pd
@@ -8,6 +9,9 @@ except ImportError:
     print("[Error] The 'pandas' library is not installed! Try 'pip install pandas'")
     exit()
 
+
+def item_modifier(name, max_level, applications, description):
+    return '[{"function": "minecraft:set_lore", "entity": "this", "lore": [[{"text": "' + name + ' ", "color": "gray"}, {"nbt":"details.level","storage":"minecraft:ench", "color":"gray"}, {"text":"/' + max_level + '", "color": "gray"}, {"text": "[' + applications + ']", "color": "dark_gray"}], {"text": "' + description + '", "color": "light_purple"}], "mode": "insert"}]'
 
 def main(output_directory='/output'):
     """
@@ -36,12 +40,11 @@ def main(output_directory='/output'):
     for enchant in range(len(enchantments)):  # Loop through each enchantment file
         new_file = open(f'{output_directory.strip("/")}/{enchantments[enchant]}.json', 'w')
         new_file.truncate()  # Removes the contents of the file
-        new_file.write(f'{{\n\t\"function\": \"set_lore\",\n\t\"lore\": [{{\"text\":\"{descriptions[enchant]}\",\"italic\":false,\"color\":\"#e699e6\"}},{{\"text\":\"For: {applications[enchant]} | Max: {maxLVL[enchant]}\",\"italic\":true,\"color\":\"#bfbfbf\"}}],\n\t\"mode\": \"replace_all\"\n}}')
+        json.dump(json.loads(item_modifier(enchantments[enchant], maxLVL[enchant], applications[enchant], descriptions[enchant])), new_file, indent=4)
         new_file.close()
 
     if __name__ == '__main__':
         print(f'[Info] Generated {len(enchantments)} files in {round(time() - start_time, 3)} seconds')
-
 
 if __name__ == '__main__':
     main()

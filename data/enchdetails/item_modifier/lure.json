@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Increases bite rate","italic":false,"color":"#e699e6"},{"text":"For: Fishing Rods | Max: III","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "lure ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/III",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Fishing Rods]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Increases bite rate",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

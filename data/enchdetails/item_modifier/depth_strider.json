@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Increases swimming speed","italic":false,"color":"#e699e6"},{"text":"For: Boots | Max: III","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "depth_strider ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/III",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Boots]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Increases swimming speed",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

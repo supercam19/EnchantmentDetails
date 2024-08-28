@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Sets the target on fire","italic":false,"color":"#e699e6"},{"text":"For: Swords | Max: II","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "fire_aspect ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/II",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Swords]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Sets the target on fire",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

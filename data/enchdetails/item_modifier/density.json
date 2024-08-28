@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Increases damage dealt when falling","italic":false,"color":"#e699e6"},{"text":"For: Mace | Max: V","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "density ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/V",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Mace]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Increases damage dealt when falling",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Launch into the air on attack","italic":false,"color":"#e699e6"},{"text":"For: Mace | Max: III","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "wind_burst ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/III",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Mace]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Launch into the air on attack",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

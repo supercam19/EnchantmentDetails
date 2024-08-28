@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Increases damage and slows arthropods","italic":false,"color":"#e699e6"},{"text":"For: Melee Weapons | Max: V","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "bane_of_arthropods ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/V",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Melee Weapons]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Increases damage and slows arthropods",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

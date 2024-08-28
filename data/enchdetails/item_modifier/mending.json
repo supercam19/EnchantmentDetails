@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Repairs held items in exchange for experience","italic":false,"color":"#e699e6"},{"text":"For: All | Max: I","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "mending ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/I",
+                    "color": "gray"
+                },
+                {
+                    "text": "[All]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Repairs held items in exchange for experience",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

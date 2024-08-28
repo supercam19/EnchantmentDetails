@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Shoots three projectiles per shot","italic":false,"color":"#e699e6"},{"text":"For: Crossbows | Max: I","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "multishot ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/I",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Crossbows]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Shoots three projectiles per shot",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

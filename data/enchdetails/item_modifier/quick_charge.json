@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Reload the crossbow quicker","italic":false,"color":"#e699e6"},{"text":"For: Crossbows | Max: III","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "quick_charge ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/III",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Crossbows]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Reload the crossbow quicker",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]

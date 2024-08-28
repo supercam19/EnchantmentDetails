@@ -1,5 +1,32 @@
-{
-	"function": "set_lore",
-	"lore": [{"text":"Prevents consumption of arrows","italic":false,"color":"#e699e6"},{"text":"For: Bows | Max: I","italic":true,"color":"#bfbfbf"}],
-	"mode": "replace_all"
-}
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+                {
+                    "text": "infinity ",
+                    "color": "gray"
+                },
+                {
+                    "nbt": "details.level",
+                    "storage": "minecraft:ench",
+                    "color": "gray"
+                },
+                {
+                    "text": "/I",
+                    "color": "gray"
+                },
+                {
+                    "text": "[Bows]",
+                    "color": "dark_gray"
+                }
+            ],
+            {
+                "text": "Prevents consumption of arrows",
+                "color": "light_purple"
+            }
+        ],
+        "mode": "insert"
+    }
+]
