@@ -1,11 +1,8 @@
 [
     {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:stored_enchantments": {
-                "levels": {},
-                "show_in_tooltip": false
-            }
+        "function": "minecraft:toggle_tooltips",
+        "toggles": {
+            "minecraft:stored_enchantments": false
         }
     },
     {
