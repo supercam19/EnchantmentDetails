@@ -12,20 +12,24 @@
             [
                 {
                     "text": "Depth Strider ",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "nbt": "details.level",
                     "storage": "minecraft:ench",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "text": "/III",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "text": " [Boots]",
-                    "color": "dark_gray"
+                    "color": "dark_gray",
+                    "italic": false
                 }
             ],
             {

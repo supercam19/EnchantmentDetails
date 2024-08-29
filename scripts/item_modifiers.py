@@ -11,7 +11,7 @@ except ImportError:
 
 
 def item_modifier(name, max_level, applications, description):
-    return '[{"function": "minecraft:toggle_tooltips", "toggles": {"minecraft:stored_enchantments": false}},{"function": "minecraft:set_lore", "entity": "this", "lore": [[{"text": "' + name + ' ", "color": "gray"}, {"nbt":"details.level","storage":"minecraft:ench", "color":"gray"}, {"text":"/' + max_level + '", "color": "gray"}, {"text": " [' + applications + ']", "color": "dark_gray"}], {"text": "' + description + '", "color": "#E699E6"}], "mode": "append"}]'
+    return '[{"function": "minecraft:toggle_tooltips", "toggles": {"minecraft:stored_enchantments": false}},{"function": "minecraft:set_lore", "entity": "this", "lore": [[{"text": "' + name + ' ", "color": "gray", "italic": false}, {"nbt":"details.level","storage":"minecraft:ench", "color":"gray", "italic": false}, {"text":"/' + max_level + '", "color": "gray", "italic": false}, {"text": " [' + applications + ']", "color": "dark_gray", "italic": false}], {"text": "' + description + '", "color": "#E699E6"}], "mode": "append"}]'
 
 def main(output_directory='/output'):
     """

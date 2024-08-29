@@ -12,20 +12,24 @@
             [
                 {
                     "text": "Sharpness ",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "nbt": "details.level",
                     "storage": "minecraft:ench",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "text": "/V",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "text": " [Melee Weapons]",
-                    "color": "dark_gray"
+                    "color": "dark_gray",
+                    "italic": false
                 }
             ],
             {

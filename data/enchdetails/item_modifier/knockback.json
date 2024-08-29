@@ -12,20 +12,24 @@
             [
                 {
                     "text": "Knockback ",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "nbt": "details.level",
                     "storage": "minecraft:ench",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "text": "/II",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "text": " [Swords]",
-                    "color": "dark_gray"
+                    "color": "dark_gray",
+                    "italic": false
                 }
             ],
             {

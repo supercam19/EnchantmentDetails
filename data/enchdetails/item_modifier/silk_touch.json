@@ -12,20 +12,24 @@
             [
                 {
                     "text": "Silk Touch ",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "nbt": "details.level",
                     "storage": "minecraft:ench",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "text": "/I",
-                    "color": "gray"
+                    "color": "gray",
+                    "italic": false
                 },
                 {
                     "text": " [Tools]",
-                    "color": "dark_gray"
+                    "color": "dark_gray",
+                    "italic": false
                 }
             ],
             {
