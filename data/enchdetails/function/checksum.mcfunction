@@ -1,4 +1,3 @@
-$say $(itter)
 $execute store success score $descriptions ench.temp run data get entity @s Inventory[{Slot:$(itter)b}].components.minecraft:lore
 $execute store result score $descriptions ench.temp run data get entity @s Inventory[{Slot:$(itter)b}].components.minecraft:lore
 $execute store result score $enchantments ench.temp run data get entity @s Inventory[{Slot:$(itter)b}].components.minecraft:stored_enchantments.levels
